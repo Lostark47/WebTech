@@ -9,7 +9,7 @@
     <form action="">
 <h1>Registration form</h1>
 <h3>Name</h3>
-        <input type="text"  placeholder="name" maxlength="30">
+        <input type="text"  placeholder="name" maxlength="30" required>
 <h3>Student ID</h3>
 <input type="text" placeholder="62-3541-361" required>
 <h3>Email</h3>
@@ -89,10 +89,17 @@
     <option value="">female</option>
 </select>
 <h3>Program</h3>
-<select name="" id=""></select>
+<select name="courses" id="">
+    <option value="">CITCS</option>
+    <option value="">CRIM</option>
+    <option value="">Accountancy</option>
+</select>
 <h3>Hobbies</h3>
+<input type="text" placeholder="ex..basketball" maxlength="50">
 <h3>Address</h3>
+<input type="text" placeholder="ex..#875 leana hill" required>
 <h3>Comments</h3>
+<input type="text" minlength="30">
 
 <button>Submit</button>
 <button>reset</button>
