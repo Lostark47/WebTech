@@ -12,7 +12,7 @@
 <h3>Name</h3>
         <input type="text"  placeholder="name" maxlength="30" required>
 <h3>Student ID</h3>
-<input type="text" placeholder="62-3541-361" maxlength="11" required>
+<input type="text" placeholder="62-3541-361" maxlength="11" minlength="11" required>
 <h3>Email</h3>
 <input type="text" placeholder="uwju@gmail.com"   required>
 
@@ -88,11 +88,13 @@
 
 <h3>Gender</h3>
 <select name="gender" id="" required>
+    <option value="">...</option>
     <option value="">male</option>
     <option value="">female</option>
 </select>
 <h3>Program</h3>
 <select name="courses" id="" required>
+    <option value="">...</option>
     <option value="">CITCS</option>
     <option value="">CRIM</option>
     <option value="">Accountancy</option>
